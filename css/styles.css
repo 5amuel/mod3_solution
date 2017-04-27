@@ -1,28 +1,38 @@
-/********Navbar********/
+
+header{
+  box-sizing: border-box; 
+  padding-right: 0;
+  width: 100%;
+}
+
+/********Navbar-header********/
 #header-nav {
   background-color: #008B8B;
   border-radius: 0;
   margin-bottom: 0;
   border: 0;
-
+ 
 }
-
 .navbar-header .navbar-brand {
   color:white;
   font-size: 2em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  line-height: .75;
+  line-height: .75; 
 }
-
-
+#colapsed-menu a{
+  color: white;
+}
+#colapsed-menu a:hover{
+  color: #222;
+}
 
 #colapsed-menu{
   text-align: center;
   margin-top: 0;
   border-top: 1px solid #008b8b;
+  background-color: #828282; 
 }
-
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -32,15 +42,21 @@
   border: 1px solid #222;
 }
 
-.collapse ul li{
-  border: 1px solid #222;
+.navbar-collapse{
+  border-top: 0;
 }
+.collapse ul li{
+  border: 1px solid white;
+  
+}
+
 #chicken, #beef {
   border-bottom: 0;
+  
 }
-#chicked{
-  border-top: 1px;
-}
+/********Navbar-header-END********/
+
+/********Content********/
 .row{
   text-align: center;
   background-color: #222; 
@@ -48,4 +64,19 @@
 }
 h1{
   text-align: center;
+}
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px; 
+}
+h1{
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pTitle{
+  font-size: 1.2em;
+  font-weight: bold;
 }
