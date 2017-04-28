@@ -3,6 +3,7 @@ header{
   box-sizing: border-box; 
   padding-right: 0;
   width: 100%;
+  
 }
 
 /********Navbar-header********/
@@ -11,6 +12,9 @@ header{
   border-radius: 0;
   margin-bottom: 0;
   border: 0;
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
  
 }
 .navbar-header .navbar-brand {
@@ -32,6 +36,7 @@ header{
   margin-top: 0;
   border-top: 1px solid #008b8b;
   background-color: #828282; 
+ 
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -44,6 +49,9 @@ header{
 
 .navbar-collapse{
   border-top: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  position:relative;
 }
 .collapse ul li{
   border: 1px solid white;
@@ -57,26 +65,54 @@ header{
 /********Navbar-header-END********/
 
 /********Content********/
-.row{
-  text-align: center;
-  background-color: #222; 
+p{
   color: white;
 }
 h1{
   text-align: center;
-}
-.row{
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 300px; 
-}
-h1{
-  font-size: 1.5em;
-  margin-top: 10px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.pTitle{
-  font-size: 1.2em;
+  color: #454747;
+  font-size: 1.75em;
   font-weight: bold;
 }
+.row {
+width: 100%;
+
+}
+.pTitle {
+  width: 100%;
+  position: relative;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #008b8b;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.pContent {
+  background-color: #008b8b;
+  padding: 35px 10px 5px 10px ;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 100%;
+  height: 700px;
+  font-size: .94em;
+}
+body{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.pContent a{
+  color: #454747;
+  text-align: center;
+  font-size: .8em;
+
+}
+.pContent a:hover, .pContent a:focus {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+/********Content-END********/
